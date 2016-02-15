@@ -1,0 +1,11 @@
+
+<h2>What is your birthdate?</h2>
+
+<form action="<%= answer_path %>" method="post">
+  Day: <input type="text" name="day"><br>
+  Month: <input type="text" name="month"><br>
+  Year: <input type="text" name="year"><br>
+  <input type="radio" name="scale" value="days" checked> in days
+  <input type="radio" name="scale" value="years"> in years <br>
+  <input type="submit">
+</form>
